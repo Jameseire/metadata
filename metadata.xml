@@ -84,5 +84,9 @@
 		                              Location="https://abdlox9nj.accounts.ondemand.com/saml2/idp/acs/abdlox9nj.accounts.ondemand.com?sp=www.successfactors.com/beiersdorfQ"
 		                              index="0"
 		                              isDefault="true"/>
+		<ns2:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+		                              Location="https://abdlox9nj.accounts.ondemand.com/saml2/idp/acs/abdlox9nj.accounts.ondemand.com"
+		                              index="0"
+		                              isDefault="false"/>							  
 	</ns2:SPSSODescriptor>
 </ns2:EntityDescriptor>
