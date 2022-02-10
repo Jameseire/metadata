@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns2:EntityDescriptor xmlns:ns2="urn:oasis:names:tc:SAML:2.0:metadata"
+                      xmlns="http://www.w3.org/2000/09/xmldsig#"
+                      xmlns:ns3="http://www.w3.org/2001/04/xmlenc#"
+                      xmlns:ns4="urn:oasis:names:tc:SAML:2.0:assertion"
+                      ID="Sa3abb8d5-402d-45a8-8de6-995b36c013d3"
+                      entityID="https://abdlox9nj.accounts.ondemand.com">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<ds:Reference URI="#Sa3abb8d5-402d-45a8-8de6-995b36c013d3">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<ds:DigestValue>M1GLCeFoJtiJGK4A67i7NT+oDb02GeN93BKWvDSjBhM=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>kdkSYVNzfIErmzXs7skGbYEe6WEgUNoj1fjKfXf+t/BgBS0r+MJetX2fSTIa5ldUGTxzfBtp71g4jB4uUY2wkQw13P2XP6zba0hAcr+arLzoHLd/Ivt2RRWNqSrTXYIPncahCx+mLBNqD92rafWmjiojCH/Iesob1jW8AZSw1qVfT/HptdJ4CYvuRTVUTf3+8HdvDgtRJuSPuJdarO8n/uPcrj2DCs/tMVc2KXlVZwfnfb6Fcsm0U67gyR3D0YsCAmvwA8RWaSNeJktsoD4htv18/QsvJMUypL3yOqm+W4IC/pu4skXHDdcHq6mwppydrFbSOekI4V55aBq+SADggQ==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509Certificate>MIIDEjCCAfqgAwIBAQIGAXpSrlBjMA0GCSqGSIb3DQEBCwUAMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtU0UxKDAmBgNVBAMTH2FiZGxveDluai5hY2NvdW50cy5vbmRlbWFuZC5jb20wHhcNMjEwNjI4MTI1MzEzWhcNMzEwNjI4MTI1MzEzWjBIMQswCQYDVQQGEwJERTEPMA0GA1UEChMGU0FQLVNFMSgwJgYDVQQDEx9hYmRsb3g5bmouYWNjb3VudHMub25kZW1hbmQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApG5rlSgiLN9Hx6rQnDj8YaIzQFmZBwHSnB/r54nVCsLtu6wRU6rrN2JMqooE9+b9jmbYvpxaouk4yVCoNQOts9sWHm1oiwhTk1SDlF50JBxgq7xX3UyrSjaUy2TzY6caFHKPtdg2l6dZ4sIxqPMtNS/M0VYV7r17UcdqrV/47rIhpC5peD52eFwt6myg79lgAO8trqMPhmWe8pd4+QB3cQlpKreMAcUDuMZnRchblH0oftbLnZy5D9oDwd6CDI6cXFqoLJxoZZoC0Ji05WmKsVItCFiZlAlhH+yJGWEC7hykZQQ1lGWezZshqXdlpXUHcL6rnP5PW42sFiIGoA5hAwIDAQABggIAADANBgkqhkiG9w0BAQsFAAOCAQEARqPdDMtVrRpfyfuxADW8RGW5MhnyWRV5n8KT7XpBdOxRsGb+3OQk5TKLz8T/oiEqbKieL+nlqeMnqlqLU8SXmGs1bhVoUE2OispGeL2MvLxnQZVyJqxVQAb1bRIsQIPiMpX68BFhng9GZgrVXdmHunZKHS1yjjA9kmDM/AmT3rcfGcp9UXSSadZFk90WAI3qbrsVfCQbE2kQ0vhJ+6lXxn3u+caknJ/+kaBGDuq8FPxEJJ1O/kUfLLWE89trJBpVQ2rxeX223PTWkD/BTbJGdFFpLjom2OSMItJPAopQTqdtwWb7lo4B62Zd2nrKNNOi/jEIwk7zPUFDqhexn/z/vA==</ds:X509Certificate>
+			</ds:X509Data>
+			<ds:KeyValue>
+				<ds:RSAKeyValue>
+					<ds:Modulus>pG5rlSgiLN9Hx6rQnDj8YaIzQFmZBwHSnB/r54nVCsLtu6wRU6rrN2JMqooE9+b9jmbYvpxaouk4yVCoNQOts9sWHm1oiwhTk1SDlF50JBxgq7xX3UyrSjaUy2TzY6caFHKPtdg2l6dZ4sIxqPMtNS/M0VYV7r17UcdqrV/47rIhpC5peD52eFwt6myg79lgAO8trqMPhmWe8pd4+QB3cQlpKreMAcUDuMZnRchblH0oftbLnZy5D9oDwd6CDI6cXFqoLJxoZZoC0Ji05WmKsVItCFiZlAlhH+yJGWEC7hykZQQ1lGWezZshqXdlpXUHcL6rnP5PW42sFiIGoA5hAw==</ds:Modulus>
+					<ds:Exponent>AQAB</ds:Exponent>
+				</ds:RSAKeyValue>
+			</ds:KeyValue>
+		</ds:KeyInfo>
+	</ds:Signature>
+	<ns2:IDPSSODescriptor WantAuthnRequestsSigned="true"
+	                      protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<ns2:KeyDescriptor use="signing">
+			<KeyInfo>
+				<KeyName>https://abdlox9nj.accounts.ondemand.com</KeyName>
+				<X509Data>
+					<X509Certificate>MIIDEjCCAfqgAwIBAQIGAXpSrlBjMA0GCSqGSIb3DQEBCwUAMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtU0UxKDAmBgNVBAMTH2FiZGxveDluai5hY2NvdW50cy5vbmRlbWFuZC5jb20wHhcNMjEwNjI4MTI1MzEzWhcNMzEwNjI4MTI1MzEzWjBIMQswCQYDVQQGEwJERTEPMA0GA1UEChMGU0FQLVNFMSgwJgYDVQQDEx9hYmRsb3g5bmouYWNjb3VudHMub25kZW1hbmQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApG5rlSgiLN9Hx6rQnDj8YaIzQFmZBwHSnB/r54nVCsLtu6wRU6rrN2JMqooE9+b9jmbYvpxaouk4yVCoNQOts9sWHm1oiwhTk1SDlF50JBxgq7xX3UyrSjaUy2TzY6caFHKPtdg2l6dZ4sIxqPMtNS/M0VYV7r17UcdqrV/47rIhpC5peD52eFwt6myg79lgAO8trqMPhmWe8pd4+QB3cQlpKreMAcUDuMZnRchblH0oftbLnZy5D9oDwd6CDI6cXFqoLJxoZZoC0Ji05WmKsVItCFiZlAlhH+yJGWEC7hykZQQ1lGWezZshqXdlpXUHcL6rnP5PW42sFiIGoA5hAwIDAQABggIAADANBgkqhkiG9w0BAQsFAAOCAQEARqPdDMtVrRpfyfuxADW8RGW5MhnyWRV5n8KT7XpBdOxRsGb+3OQk5TKLz8T/oiEqbKieL+nlqeMnqlqLU8SXmGs1bhVoUE2OispGeL2MvLxnQZVyJqxVQAb1bRIsQIPiMpX68BFhng9GZgrVXdmHunZKHS1yjjA9kmDM/AmT3rcfGcp9UXSSadZFk90WAI3qbrsVfCQbE2kQ0vhJ+6lXxn3u+caknJ/+kaBGDuq8FPxEJJ1O/kUfLLWE89trJBpVQ2rxeX223PTWkD/BTbJGdFFpLjom2OSMItJPAopQTqdtwWb7lo4B62Zd2nrKNNOi/jEIwk7zPUFDqhexn/z/vA==</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</ns2:KeyDescriptor>
+		<ns2:KeyDescriptor use="encryption">
+			<KeyInfo>
+				<KeyName>https://abdlox9nj.accounts.ondemand.com</KeyName>
+				<X509Data>
+					<X509Certificate>MIIDEjCCAfqgAwIBAQIGAXpSrlBjMA0GCSqGSIb3DQEBCwUAMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtU0UxKDAmBgNVBAMTH2FiZGxveDluai5hY2NvdW50cy5vbmRlbWFuZC5jb20wHhcNMjEwNjI4MTI1MzEzWhcNMzEwNjI4MTI1MzEzWjBIMQswCQYDVQQGEwJERTEPMA0GA1UEChMGU0FQLVNFMSgwJgYDVQQDEx9hYmRsb3g5bmouYWNjb3VudHMub25kZW1hbmQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApG5rlSgiLN9Hx6rQnDj8YaIzQFmZBwHSnB/r54nVCsLtu6wRU6rrN2JMqooE9+b9jmbYvpxaouk4yVCoNQOts9sWHm1oiwhTk1SDlF50JBxgq7xX3UyrSjaUy2TzY6caFHKPtdg2l6dZ4sIxqPMtNS/M0VYV7r17UcdqrV/47rIhpC5peD52eFwt6myg79lgAO8trqMPhmWe8pd4+QB3cQlpKreMAcUDuMZnRchblH0oftbLnZy5D9oDwd6CDI6cXFqoLJxoZZoC0Ji05WmKsVItCFiZlAlhH+yJGWEC7hykZQQ1lGWezZshqXdlpXUHcL6rnP5PW42sFiIGoA5hAwIDAQABggIAADANBgkqhkiG9w0BAQsFAAOCAQEARqPdDMtVrRpfyfuxADW8RGW5MhnyWRV5n8KT7XpBdOxRsGb+3OQk5TKLz8T/oiEqbKieL+nlqeMnqlqLU8SXmGs1bhVoUE2OispGeL2MvLxnQZVyJqxVQAb1bRIsQIPiMpX68BFhng9GZgrVXdmHunZKHS1yjjA9kmDM/AmT3rcfGcp9UXSSadZFk90WAI3qbrsVfCQbE2kQ0vhJ+6lXxn3u+caknJ/+kaBGDuq8FPxEJJ1O/kUfLLWE89trJBpVQ2rxeX223PTWkD/BTbJGdFFpLjom2OSMItJPAopQTqdtwWb7lo4B62Zd2nrKNNOi/jEIwk7zPUFDqhexn/z/vA==</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</ns2:KeyDescriptor>
+		<ns2:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+		                         Location="https://abdlox9nj.accounts.ondemand.com/saml2/idp/slo/abdlox9nj.accounts.ondemand.com"/>
+		<ns2:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+		                         Location="https://abdlox9nj.accounts.ondemand.com/saml2/idp/slo/abdlox9nj.accounts.ondemand.com"/>
+		<ns2:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+		                         Location="https://abdlox9nj.accounts.ondemand.com/saml2/idp/sso/abdlox9nj.accounts.ondemand.com"/>
+		<ns2:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+		                         Location="https://abdlox9nj.accounts.ondemand.com/saml2/idp/sso/abdlox9nj.accounts.ondemand.com"/>
+	</ns2:IDPSSODescriptor>
+	<ns2:SPSSODescriptor AuthnRequestsSigned="true"
+	                     protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<ns2:KeyDescriptor use="signing">
+			<KeyInfo>
+				<KeyName>https://abdlox9nj.accounts.ondemand.com</KeyName>
+				<X509Data>
+					<X509Certificate>MIIDEjCCAfqgAwIBAQIGAXpSrlBjMA0GCSqGSIb3DQEBCwUAMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtU0UxKDAmBgNVBAMTH2FiZGxveDluai5hY2NvdW50cy5vbmRlbWFuZC5jb20wHhcNMjEwNjI4MTI1MzEzWhcNMzEwNjI4MTI1MzEzWjBIMQswCQYDVQQGEwJERTEPMA0GA1UEChMGU0FQLVNFMSgwJgYDVQQDEx9hYmRsb3g5bmouYWNjb3VudHMub25kZW1hbmQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApG5rlSgiLN9Hx6rQnDj8YaIzQFmZBwHSnB/r54nVCsLtu6wRU6rrN2JMqooE9+b9jmbYvpxaouk4yVCoNQOts9sWHm1oiwhTk1SDlF50JBxgq7xX3UyrSjaUy2TzY6caFHKPtdg2l6dZ4sIxqPMtNS/M0VYV7r17UcdqrV/47rIhpC5peD52eFwt6myg79lgAO8trqMPhmWe8pd4+QB3cQlpKreMAcUDuMZnRchblH0oftbLnZy5D9oDwd6CDI6cXFqoLJxoZZoC0Ji05WmKsVItCFiZlAlhH+yJGWEC7hykZQQ1lGWezZshqXdlpXUHcL6rnP5PW42sFiIGoA5hAwIDAQABggIAADANBgkqhkiG9w0BAQsFAAOCAQEARqPdDMtVrRpfyfuxADW8RGW5MhnyWRV5n8KT7XpBdOxRsGb+3OQk5TKLz8T/oiEqbKieL+nlqeMnqlqLU8SXmGs1bhVoUE2OispGeL2MvLxnQZVyJqxVQAb1bRIsQIPiMpX68BFhng9GZgrVXdmHunZKHS1yjjA9kmDM/AmT3rcfGcp9UXSSadZFk90WAI3qbrsVfCQbE2kQ0vhJ+6lXxn3u+caknJ/+kaBGDuq8FPxEJJ1O/kUfLLWE89trJBpVQ2rxeX223PTWkD/BTbJGdFFpLjom2OSMItJPAopQTqdtwWb7lo4B62Zd2nrKNNOi/jEIwk7zPUFDqhexn/z/vA==</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</ns2:KeyDescriptor>
+		<ns2:KeyDescriptor use="encryption">
+			<KeyInfo>
+				<KeyName>https://abdlox9nj.accounts.ondemand.com</KeyName>
+				<X509Data>
+					<X509Certificate>MIIDEjCCAfqgAwIBAQIGAXpSrlBjMA0GCSqGSIb3DQEBCwUAMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtU0UxKDAmBgNVBAMTH2FiZGxveDluai5hY2NvdW50cy5vbmRlbWFuZC5jb20wHhcNMjEwNjI4MTI1MzEzWhcNMzEwNjI4MTI1MzEzWjBIMQswCQYDVQQGEwJERTEPMA0GA1UEChMGU0FQLVNFMSgwJgYDVQQDEx9hYmRsb3g5bmouYWNjb3VudHMub25kZW1hbmQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApG5rlSgiLN9Hx6rQnDj8YaIzQFmZBwHSnB/r54nVCsLtu6wRU6rrN2JMqooE9+b9jmbYvpxaouk4yVCoNQOts9sWHm1oiwhTk1SDlF50JBxgq7xX3UyrSjaUy2TzY6caFHKPtdg2l6dZ4sIxqPMtNS/M0VYV7r17UcdqrV/47rIhpC5peD52eFwt6myg79lgAO8trqMPhmWe8pd4+QB3cQlpKreMAcUDuMZnRchblH0oftbLnZy5D9oDwd6CDI6cXFqoLJxoZZoC0Ji05WmKsVItCFiZlAlhH+yJGWEC7hykZQQ1lGWezZshqXdlpXUHcL6rnP5PW42sFiIGoA5hAwIDAQABggIAADANBgkqhkiG9w0BAQsFAAOCAQEARqPdDMtVrRpfyfuxADW8RGW5MhnyWRV5n8KT7XpBdOxRsGb+3OQk5TKLz8T/oiEqbKieL+nlqeMnqlqLU8SXmGs1bhVoUE2OispGeL2MvLxnQZVyJqxVQAb1bRIsQIPiMpX68BFhng9GZgrVXdmHunZKHS1yjjA9kmDM/AmT3rcfGcp9UXSSadZFk90WAI3qbrsVfCQbE2kQ0vhJ+6lXxn3u+caknJ/+kaBGDuq8FPxEJJ1O/kUfLLWE89trJBpVQ2rxeX223PTWkD/BTbJGdFFpLjom2OSMItJPAopQTqdtwWb7lo4B62Zd2nrKNNOi/jEIwk7zPUFDqhexn/z/vA==</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</ns2:KeyDescriptor>
+		<ns2:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+		                         Location="https://abdlox9nj.accounts.ondemand.com/saml2/idp/slo/abdlox9nj.accounts.ondemand.com"/>
+		<ns2:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+		                         Location="https://abdlox9nj.accounts.ondemand.com/saml2/idp/slo/abdlox9nj.accounts.ondemand.com"/>
+		<ns2:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+		                              Location="https://abdlox9nj.accounts.ondemand.com/saml2/idp/acs/abdlox9nj.accounts.ondemand.com?sp=www.successfactors.com/beiersdorfQ"
+		                              index="0"
+		                              isDefault="true"/>
+	</ns2:SPSSODescriptor>
+</ns2:EntityDescriptor>
